@@ -1,0 +1,103 @@
+
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  padding: 200px 200px 600px;
+  max-width: 680px;
+
+  margin: 0 auto;
+  background-color: #fefefe;
+  height: 50%;
+
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btnAdd{
+  background: #0077b6;
+  font-size: 30px;
+  border-radius:60%;
+  color: white;
+  position: relative;
+  left: 160px;
+  border: solid 1px;
+}
+h1{
+  color:#0077b6;
+  position:relative;
+  left: 250px;
+}
+
+.div{
+  height: 600px;
+  background-color: #00b4d8;
+  position: relative;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 10px;
+  bottom: 100px;
+
+}
+ul{
+
+
+  color:white;
+  border: solid 1px;
+  position: relative;
+  align-content:center;
+  left: 140px;
+  border-radius: 10px;
+  width: 50%;
+  background-color: #0077b6;
+  font-size: 20px;
+}
+ input{
+   border: solid 2px;
+   text-decoration-color: #0077b6;
+   background-color: #fefefe;
+   color: #0077b6;
+
+   font-size: 25px;
+   position: relative;
+   left: 150px;
+ }
+ ::placeholder{
+   color: #0077b6;
+ }
+
+ .Itemnum{
+   position: relative;
+   left: 260px;
+   color: #fefefe;
+ }
+.btnDel{
+  background-color: #fefefe;
+  border: solid 1px;
+  border-color: #0077b6;
+  border-radius: 5px;
+   color: #0077b6;
+   font-size: 18px;
+   position: relative;
+   left: 5px;
+   align-items: center;
+
+
+}
+.btnUp{
+  background-color: #fefefe;
+  border: solid 1px;
+  border-color: #0077b6;
+  border-radius: 5px;
+   color: #0077b6;
+   font-size: 18px;
+   position: relative;
+   left: 10px;
+   align-items: center;
+
+
+}
+.checked-item {
+  text-decoration: line-through;
+}
